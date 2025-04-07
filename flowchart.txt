@@ -1,0 +1,52 @@
+Notebook
+-------------
+ 
+1. Importing the packages
+2. Exploring the dataset 
+    Heart Disease Data
+3. Data Processing
+4. Data Visualization
+5. Selecting the X and y  Data
+6. Data Sampling 
+    Adasyn Oversampling
+7. Splitting the dataset
+8. Building the model for all data
+    LeNet
+    GRU
+    EnsCVDDNet - LeNet + GRU
+    BICVDD-Net - LeNet + GRU + ANN
+    CNN
+    LSTM
+    BiLSTM
+    CNN + LSTM
+    KNN
+    XGBoost
+    LR
+    NaiveBayes
+    DecisionTree
+    Voting Classifier (RF+BagwithEt+BoostedDT)
+
+9. Training and Building the model
+10. Comparing the models with accuracy, precision, recall, f1 score
+11. Comparison graphs are generated with scores of all models.
+
+FrontEnd
+------------
+
+12. Frontend is developed with help of Flask Framework, along with Registration and Login setup with support of Sqlite DB
+13. For the frontend we have used dataset for predicting the Heart Disease
+14. User gives input as Feature Values 
+15. The given input is preprocessed for prediction
+16. Trained model is used for predicting the heart disease
+17. Final outcome is displayed through frontend
+
+
+Extension
+----------
+In the base paper the author mentioned to use EnsCVDD-Net and BICVDD-Net model  for analysis the data and compared with other models, 
+As an extension we applied an ensemble method  combining the predictions of multiple individual models to produce a more robust and accurate final prediction. 
+However, we can further enhance the performance by exploring other ensemble techniques such as CNN+LSTM,Voting Classifier
+As an extension we can build the front end using the flask framework for user testing and with user authentication.
+
+
+
